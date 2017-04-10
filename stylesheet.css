@@ -44,8 +44,23 @@ textarea {
 
 
 
+select{
+     font-size: 14px;
+    text-transform: uppercase;
+    background: url('images/red-background.jpeg');
+    display: block;
+    width: 53%;
+    padding: 2%;
+    color: white;
+}
 
 
+select option{
+    padding: 10px;
+    width: auto;
+    margin: 4px 2px;
+    color: black;
+}
 
 input[type"radio"]{
     padding: 10px;
