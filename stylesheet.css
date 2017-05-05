@@ -1,0 +1,134 @@
+/*JOIN, SIGNUP,LOGIN AND CONTACT US CSS DOCUMENT */
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+form{
+    margin-top: 10px;
+}
+
+fieldset {
+    padding: 40px;
+    border: solid 5px #aaa;
+    background color: cadetblue;
+    background-size: 100%;
+}
+
+fieldset legend{
+    background: white;
+    padding: 10px;
+    border: solid 1px #aaa;
+}
+
+input[type ="text"],
+input[type = "tel"],
+input[type ="address"],
+input[type = "email"],
+input[type ="date"],
+input[type ="username"],
+input[type = "password"],
+textarea {
+    padding: 10px;
+    margin: 0 0 20px;
+    border: solid 1px #454545;
+    display: block;
+    width: 50%;
+    font-size: 14px;
+    color: #777;
+    font-family: monaco, monospace;
+    text-transform: uppercase;
+}
+
+
+
+select{
+     font-size: 14px;
+    text-transform: uppercase;
+    background: url('images/red-background.jpeg');
+    display: block;
+    width: 53%;
+    padding: 2%;
+    color: white;
+}
+
+
+select option{
+    padding: 10px;
+    width: auto;
+    margin: 4px 2px;
+    color: black;
+}
+
+input[type"radio"]{
+    padding: 10px;
+    width: auto;
+    margin: 4px 2px;
+}
+
+textarea{
+    resize: none;
+}
+
+label {
+    font-size: 14px;
+    text-transform: uppercase;
+    background: url('images/red-background.jpeg');
+    display: block;
+    width: 51%;
+    padding: 2%;
+    color: white;
+}
+
+input[type = "next"] {
+    background: #eee;
+    color: #333;
+    border: solid 1px #777;
+    padding: 5px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+input[type="next"]:hover{
+    cursor: pointer;
+    border-color: #444;
+}
+
+input[type="next"]:active{
+    border-color: #111;
+    outline-color: red;
+}
+
+input[type="reset"]:hover{
+    cursor: pointer;
+    border-color: #444;
+}
+
+input[type="reset"]:active{
+    border-color: #111;
+    outline-color: red;
+}
+
+
+body#colors{
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(25,52,84,1);
+    color: white;
+   
+}
+
+nav#contact{
+    text-align: center;
+    font-size: 20px;
+}
+
+nav#contact h1{
+    text-decoration: underline;
+    font-size: 30;
+    color: indianred;
+    
+}
