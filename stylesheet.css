@@ -132,3 +132,8 @@ nav#contact h1{
     color: indianred;
     
 }
+
+nav#header{
+    text-align: right;
+    padding: 20px;
+}
