@@ -6,7 +6,7 @@
 
 body#colors{
     font-family: "Times New Roman", Times, serif;
-    background-color: rgba(25,52,84,1);
+    background: url(bgd3.jpg) no-repeat;
     color: white;
    
 }
