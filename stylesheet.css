@@ -3,7 +3,7 @@
 #container {
     width: 600px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background: url(bgd3.jpg) no-repeat;
 }
 
 form{
@@ -47,7 +47,6 @@ textarea {
 select{
      font-size: 14px;
     text-transform: uppercase;
-    background: url('images/red-background.jpeg');
     display: block;
     width: 53%;
     padding: 2%;
@@ -75,7 +74,6 @@ textarea{
 label {
     font-size: 14px;
     text-transform: uppercase;
-    background: url('images/red-background.jpeg');
     display: block;
     width: 51%;
     padding: 2%;
