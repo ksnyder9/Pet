@@ -1,0 +1,23 @@
+var geocoder;
+var map;
+var address = "10006 Canons Roar Lane Berlin MD"; //this variable is what needs to be changed
+var lat;//the lat that can be stored in DB
+var lng;//the lng that can be stored in DB
+function initialize(){
+    geocoder = new google.maps.Geocoder();
+    function codeAddress() {
+    var address = document.getElementById('address').value;
+    geocoder.geocode( { 'address': address}, function(results, status) 
+    {
+      if (status == 'OK') 
+      {
+        lat = results[0].geometry.location.lat();
+        lng = results[0].geometry.location.lng();
+      } 
+      else 
+      {
+        alert('Geocode was not successful for the following reason: ' + status);
+      }
+    });
+  }
+}
